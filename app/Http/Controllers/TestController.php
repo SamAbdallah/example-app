@@ -30,6 +30,15 @@ class TestController extends Controller{
 
     }
 
+    public function seconds(){
+        $y1=2022;
+        $y2=1732;
+        $years=$y1-$y2;
+        $seconds=($years*31536000);
+        echo $seconds;
+
+    }
+
 
 
 }
