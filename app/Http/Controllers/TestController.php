@@ -39,6 +39,13 @@ class TestController extends Controller{
 
     }
 
+    public function text(){
+        $json = file_get_contents('https://icanhazdadjoke.com/slack');
+        $obj = json_decode($json);
+        ini_set("allow_url_fopen", 1);
+
+    }
+
 
 
 }

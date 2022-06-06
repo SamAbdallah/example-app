@@ -25,5 +25,9 @@ Route::get('/randomgroups', [TestController::class, 'random_groups'])->name("ran
 Route::get('/seconds', [TestController::class, 'seconds'])->name("seconds");
 
 
+Route::get('/text', [TestController::class, 'text'])->name("text");
+
+
+
 
 
