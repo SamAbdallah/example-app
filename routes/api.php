@@ -19,3 +19,6 @@ use App\Http\Controllers\TestController;
 Route::get('/', [TestController::class, 'sayHi'])->name("say-hi");
 
 Route::get('/random', [TestController::class, 'random'])->name("random-");
+
+Route::get('/randomgroups', [TestController::class, 'random_groups'])->name("random-g");
+

@@ -22,6 +22,14 @@ class TestController extends Controller{
 
     }
 
+    public function random_groups(){
+        $arr1=['Ali','Ahmad','Joseph','Mikel','Elia','Manesa'];
+        $chunckedArray=array_chunk($arr1,3);
+        echo $chunckedArray;
+
+
+    }
+
 
 
 }
